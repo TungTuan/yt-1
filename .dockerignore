@@ -1,0 +1,15 @@
+.git
+.DS_Store
+**/.DS_Store
+**/node_modules
+**/dist
+apps/server/storage
+outputs
+exports
+logs
+*.mp4
+*.wav
+*.aiff
+.env
+apps/server/.env
+node_modules-artifact

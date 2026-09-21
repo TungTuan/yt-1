@@ -1,0 +1,29 @@
+{
+  "title": "給食の脱脂粉乳、覚えていますか",
+  "channelName": "こもれび便り",
+  "segmentType": "nostalgia",
+  "tagColor": "sage",
+  "audioSrc": "http://localhost:4011/e8a68d81-ef9d-4c92-816f-c6a1e08338f2.wav",
+  "captionCues": [
+    { "startSeconds": 0, "endSeconds": 5.4, "text": "昭和30年代の給食、脱脂粉乳を覚えていますか。" },
+    { "startSeconds": 5.4, "endSeconds": 11.9, "text": "あの独特の匂いと、当番の子が注いだ教室の風景。" },
+    { "startSeconds": 11.9, "endSeconds": 16.86, "text": "続きは本編で一緒に振り返りましょう。" }
+  ],
+  "backgroundSrc": "http://localhost:4010/assets/backgrounds/jp/jp_05_midday_spring.png",
+  "backgroundScenes": [
+    { "src": "http://localhost:4010/assets/backgrounds/jp/jp_05_midday_spring.png", "startSeconds": 0, "ambientMotion": { "setting": "outdoor_porch", "season": "spring" } },
+    { "src": "http://localhost:4010/assets/backgrounds/jp/jp_11_sunset_autumn.png", "startSeconds": 8, "ambientMotion": { "setting": "outdoor_porch", "season": "autumn", "anchors": { "lampFlicker": { "x": 69, "y": 48 } } } }
+  ],
+  "mascotPoseSrc": "http://localhost:4010/assets/mascot/05_contemplative_bow.png",
+  "mascotCues": [
+    { "src": "http://localhost:4010/assets/mascot/05_contemplative_bow.png", "startSeconds": 0 },
+    { "src": "http://localhost:4010/assets/mascot/02_head_tilt_curious.png", "startSeconds": 8 }
+  ],
+  "visualCues": [
+    { "text": "昭和30年代の給食", "startSeconds": 4.1, "endSeconds": 8.4, "kind": "keyword" },
+    { "text": "教室に残る、懐かしい風景", "startSeconds": 9.2, "endSeconds": 13.8, "kind": "quote" }
+  ],
+  "ambientMotion": { "setting": "outdoor_porch", "season": "spring" },
+  "sfxCues": [],
+  "durationInSeconds": 16.86
+}

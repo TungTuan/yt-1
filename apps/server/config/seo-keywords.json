@@ -1,0 +1,21 @@
+{
+  "_comment": "TICKET-004b — managed by hand, update periodically from real keyword research. target_keyword rotates through the list per market+segment_type, avoiding an exact repeat of the immediately preceding pick when more than one option exists.",
+  "jp": {
+    "morning_news": ["今日は何の日", "朝の一言"],
+    "nostalgia": ["昭和 懐かしい", "昭和レトロ"],
+    "letter_reading": ["お便り 朗読", "人生相談"],
+    "quiz": ["脳トレ", "認知症予防", "漢字クイズ"],
+    "bedtime_story": ["眠れない夜", "朗読 睡眠"],
+    "companionship": ["定年後 孤独", "老後 一人"],
+    "gratitude_ritual": ["感謝の習慣"]
+  },
+  "kr": {
+    "morning_news": ["오늘의 한마디", "아침 인사"],
+    "nostalgia": ["7080세대 추억", "복고"],
+    "letter_reading": ["사연 낭독", "인생 상담"],
+    "quiz": ["치매 예방", "두뇌 퀴즈", "맞춤법 퀴즈"],
+    "bedtime_story": ["잠이 안 올 때", "낭독"],
+    "companionship": ["은퇴 후 외로움", "노후 혼자"],
+    "gratitude_ritual": ["감사 습관"]
+  }
+}

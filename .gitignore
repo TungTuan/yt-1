@@ -1,0 +1,34 @@
+node_modules/
+node_modules-artifact
+**/node_modules
+dist/
+build/
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+apps/server/prisma/dev.db
+apps/server/generated/
+storage/
+logs/
+weekly-content-upload-template.xlsx
+
+# Rendered video outputs are large and reproducible on the destination machine.
+*.mp4
+
+# Local scratch/runtime files created by content and spreadsheet maintenance.
+.tmp/
+.batch-rewrite/__pycache__/
+
+# Avoid committing the duplicate delivery copy; Docker uses apps/server/public/assets.
+komorebi-library/**/*.png
+komorebi-library/**/*.jpg
+komorebi-library/**/*.jpeg
+komorebi-haetsal-asset-library.zip
+
+# Real asset binaries (TICKET-007) — large/binary, folder structure kept via .gitkeep
+# The runtime asset library is intentionally committed so a fresh machine can render.
+!apps/server/public/assets/**/*.png
+!apps/server/public/assets/**/*.jpg
+!apps/server/public/assets/**/*.jpeg

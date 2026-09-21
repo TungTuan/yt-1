@@ -1,0 +1,46 @@
+{
+  "name": "@komorebi/server",
+  "version": "0.1.0",
+  "private": true,
+  "main": "dist/index.js",
+  "prisma": {
+    "seed": "ts-node prisma/seed.ts"
+  },
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only -r dotenv/config src/index.ts",
+    "build": "tsc -p tsconfig.json",
+    "start": "node -r dotenv/config dist/index.js",
+    "prisma:generate": "prisma generate",
+    "prisma:migrate": "prisma migrate dev",
+    "prisma:seed": "prisma db seed",
+    "prisma:import-assets": "ts-node prisma/importRealAssets.ts",
+    "prisma:backfill-seo": "ts-node prisma/backfillSeo.ts",
+    "lint": "eslint src --ext .ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.125.0",
+    "@komorebi/shared-types": "0.1.0",
+    "@prisma/client": "^5.19.1",
+    "@remotion/bundler": "^4.0.524",
+    "@remotion/renderer": "^4.0.524",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "exceljs": "^4.4.0",
+    "express": "^4.19.2",
+    "ffmpeg-static": "^5.3.0",
+    "googleapis": "^144.0.0",
+    "msedge-tts": "^2.0.7",
+    "multer": "^1.4.5-lts.1",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/multer": "^1.4.11",
+    "@types/node": "^20.14.15",
+    "prisma": "^5.19.1",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.5.4"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "title": "오늘, 마음에 작은 햇살을",
+  "channelName": "햇살 편지",
+  "segmentType": "gratitude_ritual",
+  "tagColor": "amber",
+  "audioSrc": "http://localhost:4011/demo/bori-demo-neural.mp3",
+  "captionCues": [
+    { "startSeconds": 0.1, "endSeconds": 4.84, "text": "안녕하세요. 햇살 편지의 보리예요." },
+    { "startSeconds": 4.84, "endSeconds": 11.18, "text": "한국에서는 까치가 반가운 소식을 전해 주는 새로 오래 사랑받아 왔어요." },
+    { "startSeconds": 11.18, "endSeconds": 15.99, "text": "오늘 제가 가져온 소식은 아주 작고 따뜻합니다." },
+    { "startSeconds": 15.99, "endSeconds": 21.24, "text": "잠시 어깨의 힘을 빼고, 창밖의 빛을 바라보세요." },
+    { "startSeconds": 21.24, "endSeconds": 27.5, "text": "천천히 숨을 들이쉬고 내쉬면서 오늘 잘해 낸 일 하나를 떠올려 보세요." },
+    { "startSeconds": 27.5, "endSeconds": 33.45, "text": "따뜻한 차 한 잔, 반가운 인사 한마디도 충분히 소중합니다." },
+    { "startSeconds": 33.45, "endSeconds": 37.97, "text": "오늘도 당신 곁에 좋은 소식이 머물기를 바라요." },
+    { "startSeconds": 37.97, "endSeconds": 41.6, "text": "보리와 함께 편안한 하루 보내세요." }
+  ],
+  "backgroundSrc": "http://localhost:4010/assets/backgrounds/kr/kr_01_morning_spring.png",
+  "backgroundScenes": [
+    { "src": "http://localhost:4010/assets/backgrounds/kr/kr_01_morning_spring.png", "startSeconds": 0, "ambientMotion": { "setting": "outdoor_porch", "season": "spring" } },
+    { "src": "http://localhost:4010/assets/backgrounds/kr/kr_02_midday_summer.png", "startSeconds": 14, "ambientMotion": { "setting": "outdoor_porch", "season": "summer" } },
+    { "src": "http://localhost:4010/assets/backgrounds/kr/kr_03_sunset_autumn.png", "startSeconds": 28, "ambientMotion": { "setting": "outdoor_porch", "season": "autumn", "anchors": { "lampFlicker": { "x": 69, "y": 48 } } } }
+  ],
+  "mascotPoseSrc": "http://localhost:4010/assets/mascot/kr/01_standing.png",
+  "mascotCues": [
+    { "src": "http://localhost:4010/assets/mascot/kr/01_standing.png", "startSeconds": 0 },
+    { "src": "http://localhost:4010/assets/mascot/kr/02_tilt_head.png", "startSeconds": 14 },
+    { "src": "http://localhost:4010/assets/mascot/kr/06_looking_up.png", "startSeconds": 28 }
+  ],
+  "visualCues": [
+    { "text": "아주 작고 따뜻한 소식", "startSeconds": 11.2, "endSeconds": 16, "kind": "quote" },
+    { "text": "창밖의 빛을 바라보세요", "startSeconds": 17, "endSeconds": 22, "kind": "keyword" },
+    { "text": "오늘 잘해 낸 일 하나", "startSeconds": 23, "endSeconds": 28, "kind": "takeaway" },
+    { "text": "작은 순간도 충분히 소중합니다", "startSeconds": 29, "endSeconds": 34, "kind": "quote" }
+  ],
+  "ambientMotion": { "setting": "outdoor_porch", "season": "spring" },
+  "sfxCues": [],
+  "durationInSeconds": 41.6
+}

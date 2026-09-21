@@ -1,0 +1,5 @@
+{
+  "_comment": "TICKET-005 safeguard list: если script text contains any of these, the review-queue item is auto-flagged high priority. Not exhaustive — review and extend with input from someone qualified in crisis-response language for each market.",
+  "jp": ["死にたい", "消えたい", "生きる意味がない", "自殺"],
+  "kr": ["죽고 싶어", "자살", "사라지고 싶어", "살기 싫어"]
+}

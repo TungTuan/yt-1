@@ -1,0 +1,207 @@
+// Schema for content_items / asset_library / audio_library
+// See komorebi-app-spec.md EPIC 1, TICKET-002.
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum Market {
+  jp
+  kr
+}
+
+/// asset_library / audio_library also allow 'shared' (used by both channels).
+enum AssetMarket {
+  jp
+  kr
+  shared
+}
+
+enum SegmentType {
+  morning_news
+  nostalgia
+  letter_reading
+  quiz
+  bedtime_story
+  companionship
+  gratitude_ritual
+}
+
+/// '10:00' / '15:00' are reserved for auto-derived Shorts (TICKET-014/009b); never set by import.
+enum TimeSlot {
+  SLOT_0700 @map("07:00")
+  SLOT_1000 @map("10:00")
+  SLOT_1200 @map("12:00")
+  SLOT_1500 @map("15:00")
+  SLOT_1900 @map("19:00")
+  SLOT_2100 @map("21:00")
+}
+
+enum ContentFormat {
+  long_form
+  shorts
+}
+
+enum ContentSource {
+  claude_api
+  excel_import
+  claude_code_headless
+}
+
+enum ContentStatus {
+  queued
+  scripted
+  needs_review
+  approved
+  voiced
+  rendered
+  uploaded
+  published
+  failed
+}
+
+enum AssetType {
+  background
+  mascot_pose
+  overlay_card
+}
+
+enum TimeOfDayTag {
+  morning
+  afternoon
+  evening
+  night
+  any
+}
+
+enum SeasonTag {
+  spring
+  summer
+  autumn
+  winter
+  any
+}
+
+/// Covers both jp engawa and kr toenmaru background sets (TICKET-007).
+enum SettingTag {
+  outdoor_porch
+  indoor
+}
+
+enum AudioType {
+  bgm
+  sfx
+}
+
+model ContentItem {
+  id               String        @id @default(uuid())
+  market           Market
+  segmentType      SegmentType   @map("segment_type")
+  scheduledDate    DateTime      @map("scheduled_date") @db.Date
+  timeSlot         TimeSlot      @map("time_slot")
+  format           ContentFormat @default(long_form)
+  parentContentId  String?       @map("parent_content_id")
+  parent           ContentItem?  @relation("ShortsParent", fields: [parentContentId], references: [id])
+  children         ContentItem[] @relation("ShortsParent")
+  source           ContentSource
+  status           ContentStatus @default(queued)
+  title            String?
+  scriptText       String?       @map("script_text")
+  targetKeyword    String?       @map("target_keyword")
+  seoTitle         String?       @map("seo_title")
+  seoDescription   String?       @map("seo_description")
+  seoTags          String[]      @default([]) @map("seo_tags")
+  factSources      String[]      @default([]) @map("fact_sources")
+  factualQaPassed  Boolean       @default(false) @map("factual_qa_passed")
+  languageQaPassed Boolean       @default(false) @map("language_qa_passed")
+  qaNotes          String?       @map("qa_notes")
+  qaReviewedBy     String?       @map("qa_reviewed_by")
+  qaReviewedAt     DateTime?     @map("qa_reviewed_at")
+  /// tags, mood, continuity_ref, shorts_snippet, questions, crisis_flagged, priority ...
+  scriptMetadata   Json          @default("{}") @map("script_metadata")
+  audioPath        String?       @map("audio_path")
+  videoPath        String?       @map("video_path")
+  thumbnailPath    String?       @map("thumbnail_path")
+  youtubeVideoId   String?       @map("youtube_video_id")
+  youtubePublishAt DateTime?     @map("youtube_publish_at")
+  reviewedBy       String?       @map("reviewed_by")
+  createdAt        DateTime      @default(now()) @map("created_at")
+  updatedAt        DateTime      @updatedAt @map("updated_at")
+
+  @@index([market])
+  @@index([status])
+  @@index([scheduledDate])
+  @@index([parentContentId])
+  @@map("content_items")
+}
+
+model AssetLibraryItem {
+  id             String        @id @default(uuid())
+  market         AssetMarket
+  assetType      AssetType     @map("asset_type")
+  filePath       String        @map("file_path")
+  /// only meaningful when assetType = background
+  timeOfDayTag   TimeOfDayTag? @map("time_of_day_tag")
+  /// only meaningful when assetType = background
+  seasonTag      SeasonTag?    @map("season_tag")
+  /// only meaningful when assetType = background
+  settingTag     SettingTag?   @map("setting_tag")
+  /// only meaningful when assetType = mascot_pose
+  poseName       String?       @map("pose_name")
+  /// only meaningful when assetType = overlay_card
+  overlayRole    String?       @map("overlay_role")
+  moodTag        String?       @map("mood_tag")
+  aspectSafeCrop Boolean       @default(false) @map("aspect_safe_crop")
+  /// only meaningful when assetType = background. Pixel-coordinate hotspots (as % of frame, e.g.
+  /// {"steam": {"x": 72.7, "y": 56.1}, "lampFlicker": {"x": 12.6, "y": 68.5}}) for effects that
+  /// need to land on a specific painted object (teacup, lit lamp) rather than float anywhere —
+  /// found by visually inspecting each image, not guessed. Null/missing key = that effect is
+  /// skipped for this background rather than rendered in a wrong spot.
+  motionAnchors  Json?         @map("motion_anchors")
+  createdAt      DateTime      @default(now()) @map("created_at")
+
+  @@index([market])
+  @@index([assetType])
+  @@map("asset_library")
+}
+
+model AudioLibraryItem {
+  id              String      @id @default(uuid())
+  market          AssetMarket
+  audioType       AudioType   @map("audio_type")
+  filePath        String      @map("file_path")
+  moodTag         String?     @map("mood_tag")
+  segmentTypeTags String[]    @map("segment_type_tags")
+  /// only meaningful when audioType = sfx
+  sfxTrigger      String?     @map("sfx_trigger")
+  durationSeconds Float       @map("duration_seconds")
+  loopSafe        Boolean     @default(false) @map("loop_safe")
+  licenseSource   String      @map("license_source")
+  createdAt       DateTime    @default(now()) @map("created_at")
+
+  @@index([market])
+  @@index([audioType])
+  @@map("audio_library")
+}
+
+/// Per-call Claude API usage, tracked separately per market to compare channel cost (TICKET-003 AC).
+model ApiUsageLog {
+  id                   String      @id @default(uuid())
+  market               Market
+  segmentType          SegmentType @map("segment_type")
+  model                String
+  inputTokens          Int         @map("input_tokens")
+  outputTokens         Int         @map("output_tokens")
+  cacheReadTokens      Int         @default(0) @map("cache_read_tokens")
+  cacheCreationTokens  Int         @default(0) @map("cache_creation_tokens")
+  createdAt            DateTime    @default(now()) @map("created_at")
+
+  @@index([market])
+  @@index([createdAt])
+  @@map("api_usage_logs")
+}

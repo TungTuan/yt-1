@@ -1,0 +1,29 @@
+{
+  "name": "komorebi-haetsal-pipeline",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Content pipeline app for こもれび便り (JP) and 햇살 편지 (KR) YouTube channels",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "concurrently -n server,dashboard -c blue,green \"npm run dev -w apps/server\" \"npm run dev -w apps/dashboard\"",
+    "build": "npm run build -w packages/shared-types && npm run build -w apps/server && npm run build -w apps/dashboard",
+    "lint": "eslint . --ext .ts,.tsx",
+    "format": "prettier --write .",
+    "prisma:generate": "npm run prisma:generate -w apps/server",
+    "prisma:migrate": "npm run prisma:migrate -w apps/server",
+    "prisma:seed": "npm run prisma:seed -w apps/server",
+    "prisma:import-assets": "npm run prisma:import-assets -w apps/server"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^7.18.0",
+    "@typescript-eslint/parser": "^7.18.0",
+    "concurrently": "^8.2.2",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "prettier": "^3.3.3",
+    "typescript": "^5.5.4"
+  }
+}
