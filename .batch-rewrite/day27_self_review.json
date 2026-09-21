@@ -1,0 +1,28 @@
+{
+  "date": "2026-09-27",
+  "rubric": {
+    "hook_and_retention": 1.5,
+    "structure_and_pacing": 2.0,
+    "logic_and_factual_accuracy": 2.0,
+    "native_language_quality": 2.0,
+    "emotion_and_meaning": 1.5,
+    "seo_alignment": 1.0
+  },
+  "release_gate": {
+    "minimum_score": 9.0,
+    "duration_audit_required": "PASS",
+    "duplication_audit_required": "PASS",
+    "all_items_passed": true
+  },
+  "items": [
+    {"market":"jp","time_slot":"07:00","segment_type":"morning_news","title":"日曜の朝、来週へ残す余白","score":9.2,"review":"Mở đầu đúng tâm trạng sáng Chủ nhật, kết nối World Tourism Day 27/9 với một hành động gần gũi và kết bài có ích cho tuần mới."},
+    {"market":"kr","time_slot":"07:00","segment_type":"morning_news","title":"일요일, 비워 둔 한 칸","score":9.2,"review":"Giọng Hàn tự nhiên, hình ảnh ô lịch trống xuyên suốt, thông tin ngày 27/9 được đối chiếu với nguồn Liên Hợp Quốc."},
+    {"market":"jp","time_slot":"12:00","segment_type":"quiz","title":"年中行事・五問クイズ","score":9.3,"review":"Năm câu phân bố theo mùa, câu hỏi dễ hiểu, đáp án và giải thích nhất quán; có lưu ý chính xác về khác biệt vùng miền của Obon."},
+    {"market":"kr","time_slot":"12:00","segment_type":"quiz","title":"명절과 세시 풍속 다섯 문제","score":9.4,"review":"Đã sửa câu cuối thành Chuseok ngày 15/8 âm lịch, loại bỏ nhầm lẫn giữa đêm 14 và trăng rằm; toàn bộ năm câu rõ và phù hợp người lớn tuổi."},
+    {"market":"jp","time_slot":"21:00","segment_type":"bedtime_story","title":"時計修理店の最後の一本","score":9.1,"review":"Đã thay đoạn kết phi thực tế bằng kế hoạch kế nghiệp có đào tạo, tài chính, bảo mật khách hàng và giới hạn sức khỏe; cao trào nghề nghiệp vẫn giữ được cảm xúc."},
+    {"market":"kr","time_slot":"21:00","segment_type":"bedtime_story","title":"청록이가 더 넓은 수조로 떠나는 밤","score":9.3,"review":"Viết lại toàn bộ theo hướng phúc lợi động vật: không thả rùa nuôi nhốt 30 năm ra biển, có thú y, giấy phép, diễn tập vận chuyển, ghi nhận bất định và theo dõi thích nghi."}
+  ],
+  "minimum_observed_score": 9.1,
+  "average_score": 9.25,
+  "result": "PASS"
+}

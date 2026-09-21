@@ -1,0 +1,30 @@
+{
+  "date": "2026-09-23",
+  "rubric": {
+    "hook_and_retention": 1.5,
+    "structure_and_pacing": 2.0,
+    "logic_and_factual_accuracy": 2.0,
+    "native_language_quality": 2.0,
+    "emotion_and_meaning": 1.5,
+    "seo_alignment": 1.0
+  },
+  "release_gate": {
+    "minimum_score": 9.0,
+    "duration_audit_required": "PASS",
+    "duplication_audit_required": "PASS",
+    "all_items_passed": true
+  },
+  "items": [
+    {"market":"jp","time_slot":"07:00","segment_type":"morning_news","title":"仏壇に供えたおはぎが一つ減っていた","score":9.4,"review":"Hook giàu tò mò; thông tin Thu phân đúng ngày; nhịp 2–3 phút; thông điệp ấm áp và keyword khớp."},
+    {"market":"kr","time_slot":"07:00","segment_type":"morning_news","title":"닫힌 구둣방 문 앞에 놓인 국화 한 송이","score":9.5,"review":"Câu chuyện KR độc lập với JP; sửa đúng Chuseok 25/09; chi tiết Thu phân 09:06 có nguồn chính thức; CTA tự nhiên."},
+    {"market":"jp","time_slot":"12:00","segment_type":"quiz","title":"日本と韓国の昔話・五問クイズ","score":9.3,"review":"Năm truyện khác nhau, độ khó tăng dần, đủ bốn lựa chọn, đáp án và giải thích đồng bộ với questions metadata."},
+    {"market":"kr","time_slot":"12:00","segment_type":"quiz","title":"한국과 일본 옛이야기 다섯 문제","score":9.2,"review":"Đã thống nhất title với cả nhân vật lẫn vật phẩm; câu hỏi rõ, không trùng, giọng Hàn tự nhiên."},
+    {"market":"jp","time_slot":"19:00","segment_type":"nostalgia","title":"駅の伝言板に残った丸印","score":9.2,"review":"Biểu tượng vòng tròn tạo motif xuyên suốt; cao trào hợp lý; hoài niệm rõ và kết thúc có ý nghĩa."},
+    {"market":"kr","time_slot":"19:00","segment_type":"nostalgia","title":"빨간 우산과 사라진 벤치","score":9.1,"review":"Cảm xúc trưởng thành, không phản bội ký ức người vợ; đã xóa claim ‘실화’ gây hiểu nhầm khỏi toàn bộ SEO metadata."},
+    {"market":"jp","time_slot":"21:00","segment_type":"bedtime_story","title":"銭湯の番台を継いだ日","score":9.0,"review":"Hook rõ, nghề nghiệp có chiều sâu, motif sổ tay gắn các thế hệ; đủ thời lượng 28 phút và không lặp câu/đoạn."},
+    {"market":"kr","time_slot":"21:00","segment_type":"bedtime_story","title":"필름을 지킨 마지막 상영","score":9.2,"review":"Chi tiết nghề chiếu phim tạo tính chân thực; thay phim nổi tiếng bằng tác phẩm độc lập hư cấu để tránh claim sai về bản số hóa; kết bài giàu dư âm."}
+  ],
+  "minimum_observed_score": 9.0,
+  "average_score": 9.24,
+  "result": "PASS"
+}

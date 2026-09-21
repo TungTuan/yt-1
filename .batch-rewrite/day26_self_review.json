@@ -1,0 +1,30 @@
+{
+  "date": "2026-09-26",
+  "rubric": {
+    "hook_and_retention": 1.5,
+    "structure_and_pacing": 2.0,
+    "logic_and_factual_accuracy": 2.0,
+    "native_language_quality": 2.0,
+    "emotion_and_meaning": 1.5,
+    "seo_alignment": 1.0
+  },
+  "release_gate": {
+    "minimum_score": 9.0,
+    "duration_audit_required": "PASS",
+    "duplication_audit_required": "PASS",
+    "all_items_passed": true
+  },
+  "items": [
+    {"market":"jp","time_slot":"07:00","segment_type":"morning_news","title":"土曜の朝、小さな寄り道","score":9.2,"review":"Hook nhẹ nhàng đúng sáng cuối tuần, nhịp rõ, hình ảnh cụ thể và lời kết khuyến khích một thay đổi nhỏ có thể thực hiện ngay."},
+    {"market":"kr","time_slot":"07:00","segment_type":"morning_news","title":"버스 종점에서 만난 아침","score":9.2,"review":"Đã chỉnh bối cảnh đúng ngày sau Chuseok trong kỳ nghỉ 2026; cuộc gặp ở bến cuối có tiến triển tự nhiên và bài học không lên lớp."},
+    {"market":"jp","time_slot":"12:00","segment_type":"quiz","title":"食卓の知恵・五問クイズ","score":9.4,"review":"Năm câu hỏi rõ ràng, giải thích hữu ích; đã sửa hoàn toàn dữ kiện cách mài củ cải theo hướng dẫn chính thức của MAFF."},
+    {"market":"kr","time_slot":"12:00","segment_type":"quiz","title":"음식과 살림 다섯 문제","score":9.3,"review":"Nhịp quiz gọn, lựa chọn hợp lý; thay claim thiếu chắc chắn về muối bằng nguyên tắc làm nguội rau sau chần để giữ màu và độ giòn."},
+    {"market":"jp","time_slot":"19:00","segment_type":"companionship","title":"眠れない夜の湯のみ","score":9.2,"review":"Bám đúng nhu cầu đồng hành về đêm, giọng kể ấm, không hứa hẹn quá mức và kết thúc bằng một hành động nhỏ giúp người nghe dịu lại."},
+    {"market":"kr","time_slot":"19:00","segment_type":"companionship","title":"새벽 네 시의 라디오","score":9.3,"review":"Đã viết lại đúng độ dài slot 3–4 phút; người dẫn dừng xe an toàn trước khi lắng nghe, giữ được cảm giác có người đồng hành mà không cổ vũ hành vi nguy hiểm."},
+    {"market":"jp","time_slot":"21:00","segment_type":"bedtime_story","title":"駄菓子屋のおばあさんと五円玉","score":9.1,"review":"Tuyến truyện dài nhưng có tiến triển, khắc phục lặp sai thứ tự; bổ sung sự đồng thuận của phụ huynh, vai trò nhân viên chuyên môn, dị ứng và vệ sinh thực phẩm, giữ bài học về truyền lại sự tử tế."},
+    {"market":"kr","time_slot":"21:00","segment_type":"bedtime_story","title":"오후 세 시 사십 분의 수동 엘리베이터","score":9.2,"review":"Sửa toàn bộ lỗi an toàn và continuity: trẻ không chạm cần điều khiển, thang không bị giữ trái quy trình, nhân viên và gia đình cùng hỗ trợ; phần hậu truyện về chuyển đổi nghề làm payoff trọn vẹn."}
+  ],
+  "minimum_observed_score": 9.1,
+  "average_score": 9.24,
+  "result": "PASS"
+}

@@ -1,0 +1,30 @@
+{
+  "date": "2026-09-25",
+  "rubric": {
+    "hook_and_retention": 1.5,
+    "structure_and_pacing": 2.0,
+    "logic_and_factual_accuracy": 2.0,
+    "native_language_quality": 2.0,
+    "emotion_and_meaning": 1.5,
+    "seo_alignment": 1.0
+  },
+  "release_gate": {
+    "minimum_score": 9.0,
+    "duration_audit_required": "PASS",
+    "duplication_audit_required": "PASS",
+    "all_items_passed": true
+  },
+  "items": [
+    {"market":"jp","time_slot":"07:00","segment_type":"morning_news","title":"金曜日、できなかったことより","score":9.2,"review":"Mở bài gần gũi, flow rõ và thông điệp nhìn nhận những việc nhỏ phù hợp sáng thứ Sáu."},
+    {"market":"kr","time_slot":"07:00","segment_type":"morning_news","title":"송편 접시 옆에 놓인 빈 의자","score":9.6,"review":"Viết lại đúng ngày Chuseok 2026; hook cảm xúc nhưng không bi lụy; thông tin giờ trăng mọc có nguồn chính thức và kèm lưu ý theo địa hình."},
+    {"market":"jp","time_slot":"12:00","segment_type":"quiz","title":"地理と旅・五問クイズ","score":9.3,"review":"Đã sửa lỗi hồ Biwa thành khoảng 1/6 diện tích tỉnh Shiga; năm câu rõ, metadata đồng bộ."},
+    {"market":"kr","time_slot":"12:00","segment_type":"quiz","title":"지리와 여행 다섯 문제","score":9.2,"review":"Dữ kiện địa lý cơ bản chính xác, giải thích vừa đủ và phù hợp khán giả lớn tuổi."},
+    {"market":"jp","time_slot":"19:00","segment_type":"nostalgia","title":"給食当番の銀色バケツ","score":9.1,"review":"Hook vật thể tốt, ký ức học đường cụ thể, cao trào tái ngộ có payoff và bài học rõ."},
+    {"market":"kr","time_slot":"19:00","segment_type":"nostalgia","title":"시래기국 한 그릇의 비밀","score":9.3,"review":"Bổ sung kết luận và bài học; giảm claim ‘hương vị giống hệt’ thành ký ức vị giác hợp lý; giữ sự tôn trọng đối với kỷ vật gia đình."},
+    {"market":"jp","time_slot":"21:00","segment_type":"bedtime_story","title":"写真館の暗室に残された手紙","score":9.0,"review":"Sửa toàn bộ tuyến quyền riêng tư: không công khai thư/ảnh thân mật, liên hệ gia đình không ép buộc, chỉ trưng bày tư liệu được phép; thông điệp nghề ảnh sâu hơn."},
+    {"market":"kr","time_slot":"21:00","segment_type":"bedtime_story","title":"마지막 방송, 그 밤의 전화","score":9.2,"review":"Không còn lãng mạn hóa xử lý khủng hoảng cá nhân; có quy trình, đội ngũ, chuyên gia và bảo mật; cao trào vẫn giữ được cảm xúc và kết thúc nhất quán."}
+  ],
+  "minimum_observed_score": 9.0,
+  "average_score": 9.24,
+  "result": "PASS"
+}

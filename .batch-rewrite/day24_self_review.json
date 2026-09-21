@@ -1,0 +1,30 @@
+{
+  "date": "2026-09-24",
+  "rubric": {
+    "hook_and_retention": 1.5,
+    "structure_and_pacing": 2.0,
+    "logic_and_factual_accuracy": 2.0,
+    "native_language_quality": 2.0,
+    "emotion_and_meaning": 1.5,
+    "seo_alignment": 1.0
+  },
+  "release_gate": {
+    "minimum_score": 9.0,
+    "duration_audit_required": "PASS",
+    "duplication_audit_required": "PASS",
+    "all_items_passed": true
+  },
+  "items": [
+    {"market":"jp","time_slot":"07:00","segment_type":"morning_news","title":"虫の声が教える休み方","score":9.3,"review":"Không khí mùa thu rõ; thông tin tiếng dế và nhiệt độ được diễn đạt có giới hạn, tránh khái quát sai; kết bài có hành động cụ thể."},
+    {"market":"kr","time_slot":"07:00","segment_type":"morning_news","title":"시장 문이 열리기 전","score":9.2,"review":"Cảnh chợ sớm giàu hình ảnh, giọng Hàn tự nhiên, thông điệp về lao động thầm lặng ngắn gọn và đúng slot buổi sáng."},
+    {"market":"jp","time_slot":"12:00","segment_type":"quiz","title":"ことわざ・五問クイズ","score":9.3,"review":"Năm thành ngữ chính xác, giải thích rõ, câu hỏi và metadata đồng bộ, phù hợp nội dung rèn trí nhớ."},
+    {"market":"kr","time_slot":"12:00","segment_type":"quiz","title":"속담 다섯 문제","score":9.3,"review":"Năm câu hỏi không trùng, đáp án có ngữ cảnh và bài học thực tế, tiếng Hàn tự nhiên."},
+    {"market":"jp","time_slot":"19:00","segment_type":"companionship","title":"呼び出し音を三回待つ癖","score":9.1,"review":"Hook tinh tế; sửa logic cuộc gọi thành ba hồi chuông và hồi chuông thứ tư; ký ức người vợ kết nối tự nhiên với gia đình hiện tại."},
+    {"market":"kr","time_slot":"19:00","segment_type":"companionship","title":"여섯 시 전화가 울리지 않은 날","score":9.4,"review":"Có biến cố rõ, quan hệ chăm sóc hai chiều thay vì kể chung chung; xử lý tình huống sức khỏe qua 119 hợp lý; bài học dễ áp dụng."},
+    {"market":"jp","time_slot":"21:00","segment_type":"bedtime_story","title":"山あいの配達路、最後の冬","score":9.0,"review":"Đổi title khớp cốt truyện; loại bỏ hồ sơ bệnh án cá nhân và cơ chế chuyển giao xâm phạm riêng tư; nhấn mạnh đồng ý, dấu hiệu khách quan và cơ quan chuyên môn."},
+    {"market":"kr","time_slot":"21:00","segment_type":"bedtime_story","title":"심야버스 종점, 마지막 손님","score":9.2,"review":"Giữ cao trào cứu người nhưng sửa quy trình: báo điều phối và 119, tài xế không tự ý bỏ xe; hậu quả và bài học nghề nghiệp nhất quán."}
+  ],
+  "minimum_observed_score": 9.0,
+  "average_score": 9.23,
+  "result": "PASS"
+}
