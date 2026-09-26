@@ -281,6 +281,326 @@
  },
  {
   "market": "jp",
+  "date": "2026-09-28",
+  "segment_type": "morning_news",
+  "title": "月曜日、急須のふたを開けたら",
+  "script_chars": 631,
+  "estimated_duration": 125.4,
+  "target_duration": "120-180s",
+  "result": "PASS"
+ },
+ {
+  "market": "kr",
+  "date": "2026-09-28",
+  "segment_type": "morning_news",
+  "title": "월요일 아침, 우산을 말리는 사람",
+  "script_chars": 845,
+  "estimated_duration": 167.2,
+  "target_duration": "120-180s",
+  "result": "PASS"
+ },
+ {
+  "market": "jp",
+  "date": "2026-09-28",
+  "segment_type": "quiz",
+  "title": "秋の味覚・五問クイズ",
+  "script_chars": 1268,
+  "estimated_duration": 253.7,
+  "target_duration": "240-300s",
+  "result": "PASS"
+ },
+ {
+  "market": "kr",
+  "date": "2026-09-28",
+  "segment_type": "quiz",
+  "title": "가을 살림과 먹거리 다섯 문제",
+  "script_chars": 1255,
+  "estimated_duration": 250.2,
+  "target_duration": "240-300s",
+  "result": "PASS"
+ },
+ {
+  "market": "jp",
+  "date": "2026-09-28",
+  "segment_type": "nostalgia",
+  "title": "十円玉を置いた公衆電話",
+  "script_chars": 2446,
+  "estimated_duration": 485.9,
+  "target_duration": "480-600s",
+  "result": "PASS"
+ },
+ {
+  "market": "kr",
+  "date": "2026-09-28",
+  "segment_type": "nostalgia",
+  "title": "현상되지 않은 마지막 필름",
+  "script_chars": 2776,
+  "estimated_duration": 549.9,
+  "target_duration": "480-600s",
+  "result": "PASS"
+ },
+ {
+  "market": "jp",
+  "date": "2026-09-28",
+  "segment_type": "bedtime_story",
+  "title": "終着駅の忘れ物取扱所",
+  "script_chars": 10878,
+  "estimated_duration": 2130.6,
+  "target_duration": "1680-1920s",
+  "result": "PASS"
+ },
+ {
+  "market": "kr",
+  "date": "2026-09-28",
+  "segment_type": "bedtime_story",
+  "title": "잉크 자국을 남긴 세탁소",
+  "script_chars": 12910,
+  "estimated_duration": 2527.1,
+  "target_duration": "1680-1920s",
+  "result": "PASS"
+ },
+ {
+  "market": "jp",
+  "date": "2026-09-29",
+  "segment_type": "morning_news",
+  "title": "火曜日、冷蔵庫の小さな空間",
+  "script_chars": 686,
+  "estimated_duration": 136.5,
+  "target_duration": "120-180s",
+  "result": "PASS"
+ },
+ {
+  "market": "kr",
+  "date": "2026-09-29",
+  "segment_type": "morning_news",
+  "title": "화요일, 한 정거장 먼저 내린 이유",
+  "script_chars": 748,
+  "estimated_duration": 148.3,
+  "target_duration": "120-180s",
+  "result": "PASS"
+ },
+ {
+  "market": "jp",
+  "date": "2026-09-29",
+  "segment_type": "quiz",
+  "title": "手紙と郵便・五問クイズ",
+  "script_chars": 1322,
+  "estimated_duration": 264.9,
+  "target_duration": "240-300s",
+  "result": "PASS"
+ },
+ {
+  "market": "kr",
+  "date": "2026-09-29",
+  "segment_type": "quiz",
+  "title": "편지와 우편 상식 다섯 문제",
+  "script_chars": 1338,
+  "estimated_duration": 266.4,
+  "target_duration": "240-300s",
+  "result": "PASS"
+ },
+ {
+  "market": "jp",
+  "date": "2026-09-29",
+  "segment_type": "companionship",
+  "title": "眠れない夜、時計を見ない練習",
+  "script_chars": 1008,
+  "estimated_duration": 200.7,
+  "target_duration": "180-240s",
+  "result": "PASS"
+ },
+ {
+  "market": "kr",
+  "date": "2026-09-29",
+  "segment_type": "companionship",
+  "title": "병원 복도에서 혼자 기다리는 밤",
+  "script_chars": 1084,
+  "estimated_duration": 214.8,
+  "target_duration": "180-240s",
+  "result": "PASS"
+ },
+ {
+  "market": "jp",
+  "date": "2026-09-29",
+  "segment_type": "bedtime_story",
+  "title": "夜明け前の病院清掃員",
+  "script_chars": 10476,
+  "estimated_duration": 2052.2,
+  "target_duration": "1680-1920s",
+  "result": "PASS"
+ },
+ {
+  "market": "kr",
+  "date": "2026-09-29",
+  "segment_type": "bedtime_story",
+  "title": "새벽 배송이 멈춘 경비실",
+  "script_chars": 12786,
+  "estimated_duration": 2502.9,
+  "target_duration": "1680-1920s",
+  "result": "PASS"
+ },
+ {
+  "market": "jp",
+  "date": "2026-09-30",
+  "segment_type": "morning_news",
+  "title": "九月最後の朝、鉛筆を一本削る",
+  "script_chars": 626,
+  "estimated_duration": 124.8,
+  "target_duration": "120-180s",
+  "result": "PASS"
+ },
+ {
+  "market": "kr",
+  "date": "2026-09-30",
+  "segment_type": "morning_news",
+  "title": "9월의 마지막 아침, 달력 뒷면",
+  "script_chars": 661,
+  "estimated_duration": 131.3,
+  "target_duration": "120-180s",
+  "result": "PASS"
+ },
+ {
+  "market": "jp",
+  "date": "2026-09-30",
+  "segment_type": "quiz",
+  "title": "秋空と夕暮れ・五問クイズ",
+  "script_chars": 1250,
+  "estimated_duration": 249.6,
+  "target_duration": "240-300s",
+  "result": "PASS"
+ },
+ {
+  "market": "kr",
+  "date": "2026-09-30",
+  "segment_type": "quiz",
+  "title": "가을 하늘과 밤길 안전 다섯 문제",
+  "script_chars": 1293,
+  "estimated_duration": 257.3,
+  "target_duration": "240-300s",
+  "result": "PASS"
+ },
+ {
+  "market": "jp",
+  "date": "2026-09-30",
+  "segment_type": "nostalgia",
+  "title": "カセットに残った朝の伝言板",
+  "script_chars": 3300,
+  "estimated_duration": 648.8,
+  "target_duration": "480-600s",
+  "result": "PASS"
+ },
+ {
+  "market": "kr",
+  "date": "2026-09-30",
+  "segment_type": "nostalgia",
+  "title": "구멍 난 시외버스 승차권",
+  "script_chars": 3935,
+  "estimated_duration": 772.7,
+  "target_duration": "480-600s",
+  "result": "PASS"
+ },
+ {
+  "market": "jp",
+  "date": "2026-09-30",
+  "segment_type": "bedtime_story",
+  "title": "岬の灯台、最後のレンズ",
+  "script_chars": 8585,
+  "estimated_duration": 1684.0,
+  "target_duration": "1680-1920s",
+  "result": "PASS"
+ },
+ {
+  "market": "kr",
+  "date": "2026-09-30",
+  "segment_type": "bedtime_story",
+  "title": "첫차가 늦어진 새벽",
+  "script_chars": 10709,
+  "estimated_duration": 2097.7,
+  "target_duration": "1680-1920s",
+  "result": "PASS"
+ },
+ {
+  "market": "jp",
+  "date": "2026-10-01",
+  "segment_type": "morning_news",
+  "title": "十月一日、靴ひもを結び直す",
+  "script_chars": 626,
+  "estimated_duration": 125.1,
+  "target_duration": "120-180s",
+  "result": "PASS"
+ },
+ {
+  "market": "kr",
+  "date": "2026-10-01",
+  "segment_type": "morning_news",
+  "title": "10월 첫 아침, 창문을 조금만 열기",
+  "script_chars": 613,
+  "estimated_duration": 122.3,
+  "target_duration": "120-180s",
+  "result": "PASS"
+ },
+ {
+  "market": "jp",
+  "date": "2026-10-01",
+  "segment_type": "quiz",
+  "title": "衣替えと秋支度・五問クイズ",
+  "script_chars": 1209,
+  "estimated_duration": 241.6,
+  "target_duration": "240-300s",
+  "result": "PASS"
+ },
+ {
+  "market": "kr",
+  "date": "2026-10-01",
+  "segment_type": "quiz",
+  "title": "옷장 정리와 가을 준비 다섯 문제",
+  "script_chars": 1255,
+  "estimated_duration": 249.9,
+  "target_duration": "240-300s",
+  "result": "PASS"
+ },
+ {
+  "market": "jp",
+  "date": "2026-10-01",
+  "segment_type": "companionship",
+  "title": "返事を待つ夕方、送信ボタンの前で",
+  "script_chars": 911,
+  "estimated_duration": 181.7,
+  "target_duration": "180-240s",
+  "result": "PASS"
+ },
+ {
+  "market": "kr",
+  "date": "2026-10-01",
+  "segment_type": "companionship",
+  "title": "퇴직 후 첫 평일 저녁",
+  "script_chars": 920,
+  "estimated_duration": 182.8,
+  "target_duration": "180-240s",
+  "result": "PASS"
+ },
+ {
+  "market": "jp",
+  "date": "2026-10-01",
+  "segment_type": "bedtime_story",
+  "title": "最後の給食室、カレーの湯気",
+  "script_chars": 8584,
+  "estimated_duration": 1683.4,
+  "target_duration": "1680-1920s",
+  "result": "PASS"
+ },
+ {
+  "market": "kr",
+  "date": "2026-10-01",
+  "segment_type": "bedtime_story",
+  "title": "마지막 목욕물의 온도",
+  "script_chars": 10734,
+  "estimated_duration": 2102.6,
+  "target_duration": "1680-1920s",
+  "result": "PASS"
+ },
+ {
+  "market": "jp",
   "date": "2026-09-21",
   "segment_type": "bedtime_story",
   "title": "鍛冶屋の火を継ぐ者",

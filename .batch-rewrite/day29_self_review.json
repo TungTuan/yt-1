@@ -1,0 +1,14 @@
+{
+  "date":"2026-09-29","minimum_observed_score":9.0,"average_score":9.23,"result":"PASS",
+  "release_gate":{"minimum_score":9.0,"duration_audit_required":"PASS","duplication_audit_required":"PASS","all_items_passed":true},
+  "items":[
+    {"market":"jp","time_slot":"07:00","segment_type":"morning_news","title":"火曜日、冷蔵庫の小さな空間","score":9.2,"review":"Chủ đề khoảng trống trong tủ lạnh cụ thể, không lên lớp; có hướng dẫn an toàn thực phẩm và quản lý sức lực."},
+    {"market":"kr","time_slot":"07:00","segment_type":"morning_news","title":"화요일, 한 정거장 먼저 내린 이유","score":9.2,"review":"Không cổ vũ đi bộ quá sức; có chuẩn bị lộ trình, thông báo gia đình và quan sát cơ thể sau khi về nhà."},
+    {"market":"jp","time_slot":"12:00","segment_type":"quiz","title":"手紙と郵便・五問クイズ","score":9.4,"review":"Thông tin mã bưu chính bảy chữ số và 転居届 được kiểm chứng bằng Japan Post; bổ sung phòng tránh thư lừa đảo."},
+    {"market":"kr","time_slot":"12:00","segment_type":"quiz","title":"편지와 우편 상식 다섯 문제","score":9.3,"review":"Kết hợp kiến thức bưu chính với bảo vệ dữ liệu và QR đáng ngờ; lưu ý điều kiện dịch vụ có thể thay đổi."},
+    {"market":"jp","time_slot":"19:00","segment_type":"companionship","title":"眠れない夜、時計を見ない練習","score":9.2,"review":"Đồng hành thực tế, không hứa chữa mất ngủ; nêu rõ trường hợp cần tư vấn y tế và phòng ngừa té ngã ban đêm."},
+    {"market":"kr","time_slot":"19:00","segment_type":"companionship","title":"병원 복도에서 혼자 기다리는 밤","score":9.3,"review":"Bối cảnh bệnh viện nhạy cảm được xử lý đúng giới hạn: ưu tiên nhân viên y tế, không tự chẩn đoán, đưa hành động nhỏ khả thi."},
+    {"market":"jp","time_slot":"21:00","segment_type":"bedtime_story","title":"夜明け前の病院清掃員","score":9.0,"review":"Góc khuất nghề vệ sinh bệnh viện có infection control, bảo mật, giới hạn vai trò và vấn đề lao động; kết thúc bàn giao hợp lý."},
+    {"market":"kr","time_slot":"21:00","segment_type":"bedtime_story","title":"새벽 배송이 멈춘 경비실","score":9.2,"review":"Kết nối bảo vệ, tài xế giao hàng và cư dân mà không biến ai thành anh hùng; xử lý thuốc, CCTV, báo cháy và sức khỏe đúng quy trình."}
+  ]
+}

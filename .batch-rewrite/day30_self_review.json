@@ -1,0 +1,14 @@
+{
+  "date":"2026-09-30","minimum_observed_score":9.0,"average_score":9.23,"result":"PASS",
+  "release_gate":{"minimum_score":9.0,"duration_audit_required":"PASS","duplication_audit_required":"PASS","all_items_passed":true},
+  "items":[
+    {"market":"jp","time_slot":"07:00","segment_type":"morning_news","title":"九月最後の朝、鉛筆を一本削る","score":9.2,"review":"Hook vật thể rõ, xử lý tâm lý cuối tháng nhẹ nhàng và có hướng dẫn an toàn khi dùng dụng cụ sắc."},
+    {"market":"kr","time_slot":"07:00","segment_type":"morning_news","title":"9월의 마지막 아침, 달력 뒷면","score":9.2,"review":"Mẩu ghi chú sau lịch tạo cảm xúc tự nhiên; kết bài ghi nhận việc nghỉ ngơi và giữ lời hứa nhỏ."},
+    {"market":"jp","time_slot":"12:00","segment_type":"quiz","title":"秋空と夕暮れ・五問クイズ","score":9.4,"review":"Đã sửa 鰯雲 thành 巻積雲 hoặc 高積雲 theo JMA; phần phản quang và an toàn chiều tối có nguồn cảnh sát Nhật."},
+    {"market":"kr","time_slot":"12:00","segment_type":"quiz","title":"가을 하늘과 밤길 안전 다섯 문제","score":9.3,"review":"Năm câu cân bằng kiến thức thiên nhiên và an toàn, không biến vật liệu phản quang thành biện pháp thay thế quy tắc giao thông."},
+    {"market":"jp","time_slot":"19:00","segment_type":"nostalgia","title":"カセットに残った朝の伝言板","score":9.2,"review":"Nostalgia phát thanh có consent, quyền rút lại và không suy đoán đoạn băng hỏng; liên kết được với thông tin khẩn cấp hiện tại."},
+    {"market":"kr","time_slot":"19:00","segment_type":"nostalgia","title":"구멍 난 시외버스 승차권","score":9.2,"review":"Không lãng mạn hóa bất tiện giao thông cũ; bảo vệ dữ liệu trên vé và ghi nhận nhiều ký ức khác nhau."},
+    {"market":"jp","time_slot":"21:00","segment_type":"bedtime_story","title":"岬の灯台、最後のレンズ","score":9.0,"review":"Tuyến nghề bảo trì rõ, không cổ vũ lao ra bão; lựa chọn thay thiết bị cũ dựa trên đo đạc và quy trình nhóm."},
+    {"market":"kr","time_slot":"21:00","segment_type":"bedtime_story","title":"첫차가 늦어진 새벽","score":9.3,"review":"Góc khuất bảo trì tàu điện thuyết phục; xử lý lockout, chạy thử, công bố chậm chuyến và sức khỏe ca đêm nhất quán."}
+  ]
+}

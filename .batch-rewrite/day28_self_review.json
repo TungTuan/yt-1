@@ -1,0 +1,14 @@
+{
+  "date":"2026-09-28","minimum_observed_score":9.0,"average_score":9.21,"result":"PASS",
+  "release_gate":{"minimum_score":9.0,"duration_audit_required":"PASS","duplication_audit_required":"PASS","all_items_passed":true},
+  "items":[
+    {"market":"jp","time_slot":"07:00","segment_type":"morning_news","title":"月曜日、急須のふたを開けたら","score":9.2,"review":"Hook đời thường, lời khuyên đầu tuần thực hiện được và có giới hạn an toàn khi dùng nước nóng."},
+    {"market":"kr","time_slot":"07:00","segment_type":"morning_news","title":"월요일 아침, 우산을 말리는 사람","score":9.2,"review":"Hình ảnh người phơi ô tạo cảm xúc tự nhiên; kết nối hợp lý với chuẩn bị tuần mới và an toàn đường trơn."},
+    {"market":"jp","time_slot":"12:00","segment_type":"quiz","title":"秋の味覚・五問クイズ","score":9.4,"review":"Năm câu đa dạng, dữ kiện 新米 được kiểm chứng từ Consumer Affairs Agency; giải thích thêm an toàn thực phẩm."},
+    {"market":"kr","time_slot":"12:00","segment_type":"quiz","title":"가을 살림과 먹거리 다섯 문제","score":9.2,"review":"Kết hợp kiến thức mùa thu, bảo quản và an toàn khi hái lượm; đáp án rõ, không thần thánh hóa thực phẩm."},
+    {"market":"jp","time_slot":"19:00","segment_type":"nostalgia","title":"十円玉を置いた公衆電話","score":9.1,"review":"Không tô hồng sự bất tiện; xử lý ký ức cộng đồng với đồng thuận, quyền riêng tư và payoff cha–con rõ."},
+    {"market":"kr","time_slot":"19:00","segment_type":"nostalgia","title":"현상되지 않은 마지막 필름","score":9.3,"review":"Tuyến phục hồi phim tôn trọng quyền riêng tư, không bịa thêm bằng AI và chấp nhận ký ức khác biệt trong gia đình."},
+    {"market":"jp","time_slot":"21:00","segment_type":"bedtime_story","title":"終着駅の忘れ物取扱所","score":9.0,"review":"Cấu trúc dài có tiến triển, nhấn mạnh xác minh–bảo mật–bàn giao thay vì giải bí mật lá thư; thông điệp nghề nghiệp nhất quán."},
+    {"market":"kr","time_slot":"21:00","segment_type":"bedtime_story","title":"잉크 자국을 남긴 세탁소","score":9.3,"review":"Góc khuất nghề giặt được khai thác cụ thể: giới hạn tẩy vết, an toàn hóa chất, đồng thuận khách hàng và chuyển giao nghề."}
+  ]
+}

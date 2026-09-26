@@ -1,0 +1,14 @@
+{
+  "date":"2026-10-01","minimum_observed_score":9.0,"average_score":9.21,"result":"PASS",
+  "release_gate":{"minimum_score":9.0,"duration_audit_required":"PASS","duplication_audit_required":"PASS","all_items_passed":true},
+  "items":[
+    {"market":"jp","time_slot":"07:00","segment_type":"morning_news","title":"十月一日、靴ひもを結び直す","score":9.2,"review":"Hình ảnh dây giày phù hợp ngày đầu tháng, đi vào phòng ngừa té ngã và mục tiêu nhỏ có thể thực hiện."},
+    {"market":"kr","time_slot":"07:00","segment_type":"morning_news","title":"10월 첫 아침, 창문을 조금만 열기","score":9.2,"review":"Không đưa lời khuyên thông gió tuyệt đối; lưu ý chất lượng không khí, bệnh hô hấp, khóa cửa và giới hạn vận động."},
+    {"market":"jp","time_slot":"12:00","segment_type":"quiz","title":"衣替えと秋支度・五問クイズ","score":9.3,"review":"Quiz thực dụng, đề cập đường đi, nâng vật nặng, nấm mốc, nhãn giặt và quy định nơi nhận quyên góp."},
+    {"market":"kr","time_slot":"12:00","segment_type":"quiz","title":"옷장 정리와 가을 준비 다섯 문제","score":9.2,"review":"Câu hỏi rõ, lựa chọn sai có tính phân biệt tốt và phần giải thích ưu tiên chống té ngã, quá sức."},
+    {"market":"jp","time_slot":"19:00","segment_type":"companionship","title":"返事を待つ夕方、送信ボタンの前で","score":9.3,"review":"Hướng dẫn giao tiếp có ranh giới, xử lý khẩn cấp và nguy cơ giả mạo; không ép hòa giải hoặc đòi hồi đáp."},
+    {"market":"kr","time_slot":"19:00","segment_type":"companionship","title":"퇴직 후 첫 평일 저녁","score":9.2,"review":"Đồng hành sau nghỉ hưu không áp đặt bận rộn; bổ sung sức khỏe tâm thần, cảnh báo đầu tư và lựa chọn cộng đồng an toàn."},
+    {"market":"jp","time_slot":"21:00","segment_type":"bedtime_story","title":"最後の給食室、カレーの湯気","score":9.0,"review":"Góc nghề bếp trường học có allergy, cross-contact, đo lường, điều kiện lao động và bàn giao; không thần bí hóa công thức."},
+    {"market":"kr","time_slot":"21:00","segment_type":"bedtime_story","title":"마지막 목욕물의 온도","score":9.3,"review":"Tuyến thợ nồi hơi đặt an toàn khí, nước và lao động trước hoài niệm; kết thúc đóng cơ sở có quy trình và dignity."}
+  ]
+}
